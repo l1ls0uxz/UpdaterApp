@@ -27,7 +27,7 @@ namespace Updater
             lblVersion.Text = "Version: " + version;
             AutoUpdater.DownloadPath = "update";
             AutoUpdater.RunUpdateAsAdmin = true;
-            AutoUpdater.ClearAppDirectory = true;
+            //AutoUpdater.ClearAppDirectory = true;
             System.Timers.Timer timer = new System.Timers.Timer
             {
                 Interval = 15 * 60 * 1000,

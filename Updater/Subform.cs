@@ -13,18 +13,12 @@ namespace Updater
     public partial class Subform : Form
     {
         private NotifyIcon notifyIcon;
-        public Subform(NotifyIcon notifyIcon)
+        public Subform()
         {
             InitializeComponent();
-            this.notifyIcon = notifyIcon;
+            
         }
-        private void Subform_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // Hide the form and show the NotifyIcon
-            e.Cancel = true;
-            this.Hide();
-            notifyIcon.Visible = true;
-        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();

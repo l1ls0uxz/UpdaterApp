@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-  <version>1.0.1.0</version>
-  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.1.0/Updater.zip</url>
+  <version>1.0.1.1</version>
+  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.1.1/Updater.zip</url>
   <changelog>https://github.com/lils0uxz/UpdaterApp/releases</changelog>
   <mandatory>false</mandatory>
 </item>

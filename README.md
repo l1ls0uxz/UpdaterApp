@@ -29,8 +29,8 @@ AutoUpdater.NET uses XML file located on a server to get the release information
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
   <version>1.0.1.4</version>
-  <url>https://rbsoft.org/downloads/AutoUpdaterTest.zip</url>
-  <changelog>https://github.com/ravibpatel/AutoUpdater.NET/releases</changelog>
+  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.1.4/Updater.zip</url>
+  <changelog>https://github.com/lils0uxz/UpdaterApp/releases</changelog>
   <mandatory>false</mandatory>
 </item>
 ````

@@ -42,3 +42,28 @@ There are two things you need to provide in XML file as you can see above.
 * changelog (Optional): You need to provide URL of the change log of your application between changelog tags. If you don't provide the URL of the changelog then update dialog won't show the change log.
 * mandatory (Optional): You can set this to true if you don't want user to skip this version. This will ignore Remind Later and Skip options and hide both Skip and Remind Later button on update dialog.
   * mode (Attribute, Optional): You can provide mode attribute on mandatory element to change the behaviour of the mandatory flag. If you provide "1" as the value of mode attribute then it will also hide the Close button on update dialog. If you provide "2" as the value of mode attribute then it will skip the update dialog and start downloading and updating application automatically.
+
+   ````xml
+   <mandatory mode="2">true</mandatory>
+   ````
+
+  * minVersion (Attribute, Optional): You can also provide minVersion attribute on mandatory element. When you provide it, Mandatory option will be triggered only if the installed version of the app is less than the minimum version you specified here.
+
+   ````xml
+   <mandatory minVersion="1.2.0.0">true</mandatory>
+   ````
+
+* executable (Optional): You can provide the path of the executable if it was changed in the update. It should be relative to the installation directory of the application. For example, if the new executable is located inside the bin folder of the installation directory, then you should provide it as shown below.
+
+````xml
+<executable>bin\AutoUpdaterTest.exe</executable>
+````
+
+* args (Optional): You can provide command line arguments for Installer between this tag. You can include %path% with your command line arguments, it will be replaced by path of the directory where currently executing application resides.
+* checksum (Optional): You can provide the checksum for the update file between this tag. If you do this AutoUpdater.NET will compare the checksum of the downloaded file before executing the update process to check the integrity of the file. You can provide algorithm attribute in the checksum tag to specify which algorithm should be used to generate the checksum of the downloaded file. Currently, MD5, SHA1, SHA256, SHA384, and SHA512 are supported.
+
+````xml
+<checksum algorithm="MD5">Update file Checksum</checksum>
+````
+
+You can also use the XML creator tool created by one of the user to create the XML file. You can download it from [here](https://github.com/DwainSnickles/AutoUpdater.NET.XML-Creator-master/blob/master/AutoUpdaterXML.zip).

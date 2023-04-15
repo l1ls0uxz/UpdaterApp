@@ -37,10 +37,8 @@
             this.btnTest2 = new System.Windows.Forms.Button();
             this.btnTest1 = new System.Windows.Forms.Button();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAbout
@@ -78,12 +76,11 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.btnTest2);
             this.groupBox1.Controls.Add(this.btnTest1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 68);
+            this.groupBox1.Location = new System.Drawing.Point(12, 122);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(760, 132);
+            this.groupBox1.Size = new System.Drawing.Size(760, 78);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Test Place";
@@ -91,7 +88,7 @@
             // btnTest2
             // 
             this.btnTest2.Image = ((System.Drawing.Image)(resources.GetObject("btnTest2.Image")));
-            this.btnTest2.Location = new System.Drawing.Point(6, 76);
+            this.btnTest2.Location = new System.Drawing.Point(82, 20);
             this.btnTest2.Name = "btnTest2";
             this.btnTest2.Size = new System.Drawing.Size(70, 50);
             this.btnTest2.TabIndex = 1;
@@ -114,16 +111,6 @@
             this.notifyIcon.Text = "Infomation";
             this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon_MouseDoubleClick);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(653, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(101, 106);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,7 +128,6 @@
             this.Resize += new System.EventHandler(this.Home_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -155,6 +141,5 @@
         private System.Windows.Forms.Button btnTest2;
         private System.Windows.Forms.Button btnTest1;
         private System.Windows.Forms.NotifyIcon notifyIcon;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-  <version>1.0.1.4</version>
-  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.1.4/Updater.zip</url>
+  <version>1.0.1.11</version>
+  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.1.11/publish.zip</url>
   <changelog>https://github.com/lils0uxz/UpdaterApp/releases</changelog>
+  <executable>publish\setup.exe</executable>
   <mandatory>false</mandatory>
 </item>

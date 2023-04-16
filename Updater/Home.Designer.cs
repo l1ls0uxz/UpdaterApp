@@ -78,9 +78,9 @@
             // 
             this.groupBox1.Controls.Add(this.btnTest2);
             this.groupBox1.Controls.Add(this.btnTest1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 122);
+            this.groupBox1.Location = new System.Drawing.Point(12, 104);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(760, 78);
+            this.groupBox1.Size = new System.Drawing.Size(760, 96);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Test Place";
@@ -88,18 +88,18 @@
             // btnTest2
             // 
             this.btnTest2.Image = ((System.Drawing.Image)(resources.GetObject("btnTest2.Image")));
-            this.btnTest2.Location = new System.Drawing.Point(82, 20);
+            this.btnTest2.Location = new System.Drawing.Point(668, 19);
             this.btnTest2.Name = "btnTest2";
-            this.btnTest2.Size = new System.Drawing.Size(70, 50);
+            this.btnTest2.Size = new System.Drawing.Size(86, 68);
             this.btnTest2.TabIndex = 1;
             this.btnTest2.UseVisualStyleBackColor = true;
             // 
             // btnTest1
             // 
             this.btnTest1.Image = ((System.Drawing.Image)(resources.GetObject("btnTest1.Image")));
-            this.btnTest1.Location = new System.Drawing.Point(6, 20);
+            this.btnTest1.Location = new System.Drawing.Point(6, 19);
             this.btnTest1.Name = "btnTest1";
-            this.btnTest1.Size = new System.Drawing.Size(70, 50);
+            this.btnTest1.Size = new System.Drawing.Size(86, 68);
             this.btnTest1.TabIndex = 0;
             this.btnTest1.UseVisualStyleBackColor = true;
             this.btnTest1.Click += new System.EventHandler(this.btnTest1_Click);

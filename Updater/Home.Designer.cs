@@ -37,6 +37,7 @@
             this.btnTest2 = new System.Windows.Forms.Button();
             this.btnTest1 = new System.Windows.Forms.Button();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +77,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnTest2);
             this.groupBox1.Controls.Add(this.btnTest1);
             this.groupBox1.Location = new System.Drawing.Point(12, 104);
@@ -111,6 +113,15 @@
             this.notifyIcon.Text = "Infomation";
             this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon_MouseDoubleClick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 68);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Test";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,5 +152,6 @@
         private System.Windows.Forms.Button btnTest2;
         private System.Windows.Forms.Button btnTest1;
         private System.Windows.Forms.NotifyIcon notifyIcon;
+        private System.Windows.Forms.Button button1;
     }
 }

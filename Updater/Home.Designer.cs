@@ -97,7 +97,7 @@
             // btnTest1
             // 
             this.btnTest1.Image = ((System.Drawing.Image)(resources.GetObject("btnTest1.Image")));
-            this.btnTest1.Location = new System.Drawing.Point(6, 19);
+            this.btnTest1.Location = new System.Drawing.Point(576, 19);
             this.btnTest1.Name = "btnTest1";
             this.btnTest1.Size = new System.Drawing.Size(86, 68);
             this.btnTest1.TabIndex = 0;

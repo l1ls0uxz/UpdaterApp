@@ -32,7 +32,7 @@ AutoUpdater.NET uses XML file located on a server to get the release information
 ````xml
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-  <version>1.0.1.4</version>
+  <version>1.0.0.0</version>
   <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.0.0/Updater.zip</url>
   <changelog>https://github.com/lils0uxz/UpdaterApp/releases</changelog>
   <mandatory>false</mandatory>

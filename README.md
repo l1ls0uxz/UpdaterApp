@@ -1,4 +1,7 @@
 # ![AutoUpdater.NET](Images/Horizontal.png)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/yng987o7dauk9gqc?svg=true)](https://ci.appveyor.com/project/ravibpatel/autoupdater-net)
+
 This project is using AutoUpdater.NET, which is a class library that enables .NET developers to easily incorporate auto-update functionality into their traditional desktop application projects.
 
 * Official source code: [AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET).

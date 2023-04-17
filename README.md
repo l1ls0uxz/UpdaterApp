@@ -1,6 +1,10 @@
-# UpdaterApp
 # ![AutoUpdater.NET](Images/Horizontal.png)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/yng987o7dauk9gqc?svg=true)](https://ci.appveyor.com/project/ravibpatel/autoupdater-net)
+
 This project is using AutoUpdater.NET, which is a class library that enables .NET developers to easily incorporate auto-update functionality into their traditional desktop application projects.
+
+* Official source code: [AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET).
 ## The NuGet Package  [![NuGet](https://img.shields.io/nuget/v/Autoupdater.NET.Official.svg)](https://www.nuget.org/packages/Autoupdater.NET.Official/) [![NuGet](https://img.shields.io/nuget/dt/Autoupdater.NET.Official.svg)](https://www.nuget.org/packages/Autoupdater.NET.Official/)
 
 ````powershell
@@ -28,8 +32,8 @@ AutoUpdater.NET uses XML file located on a server to get the release information
 ````xml
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-  <version>1.0.1.4</version>
-  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.1.4/Updater.zip</url>
+  <version>1.0.0.0</version>
+  <url>https://github.com/lils0uxz/UpdaterApp/releases/download/v1.0.0.0/Updater.zip</url>
   <changelog>https://github.com/lils0uxz/UpdaterApp/releases</changelog>
   <mandatory>false</mandatory>
 </item>

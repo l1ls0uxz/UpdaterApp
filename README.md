@@ -1,6 +1,8 @@
 # UpdaterApp
 # ![AutoUpdater.NET](Images/Horizontal.png)
 This project is using AutoUpdater.NET, which is a class library that enables .NET developers to easily incorporate auto-update functionality into their traditional desktop application projects.
+
+* Official source code: [AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET).
 ## The NuGet Package  [![NuGet](https://img.shields.io/nuget/v/Autoupdater.NET.Official.svg)](https://www.nuget.org/packages/Autoupdater.NET.Official/) [![NuGet](https://img.shields.io/nuget/dt/Autoupdater.NET.Official.svg)](https://www.nuget.org/packages/Autoupdater.NET.Official/)
 
 ````powershell

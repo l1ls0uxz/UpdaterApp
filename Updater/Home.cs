@@ -16,10 +16,6 @@ namespace Updater
         {
             InitializeComponent();
         }
-        private void Home_Load(object sender, EventArgs e)
-        {
-
-        }
         private void Home_Resize(object sender, EventArgs e)
         {
             // if the form is minimized  
@@ -54,6 +50,11 @@ namespace Updater
             Show();
             this.WindowState = FormWindowState.Normal;
             notifyIcon.Visible = false;
+        }
+
+        private void D(object sender, EventArgs e)
+        {
+
         }
     }
 }
